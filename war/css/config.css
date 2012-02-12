@@ -1,0 +1,286 @@
+@charset "utf-8";
+
+/* config top */
+section.configOthers h2 {
+	font-size: 12px;
+	background: #f5fbff;
+	padding: 6px 10px;
+	border-bottom: 1px dotted #b9c9d5;
+}
+
+/* config - basic */
+div.categorySelect select {
+	width: 90%;
+}
+
+select[name^="parent_blog_category_id"] {
+	margin-bottom: 5px;
+}
+
+/* config - comment */
+div.commentAuthOption {
+	padding: 5px 0 0 10px;
+}
+
+div.commentAuthOption div.optionItem {
+	padding: 5px;
+}
+
+div.commentAuthOption div.optionForm {
+	padding: 5px 0 0 10px;
+}
+
+div.commentAuthOption div.optionForm textarea[name="allow_users"],
+div.commentAuthOption div.optionForm textarea[name="deny_users"] {
+	-webkit-border-radius: 4px;
+	border: 1px solid #ccc;
+	width: 98%;
+	height: 12em;
+	padding: 1%;
+	font-size: 14px;
+}
+
+div.commentAuthOption div.optionItem span {
+	color: #999;
+	display: block;
+	padding-top: 3px;
+}
+
+
+
+/* config - member */
+ul.entryList {
+	display: table;
+	font-size: 12px;
+}
+
+ul.entryList li {
+	display: table-row;
+}
+
+ul.entryList li h2.memberListName {
+	display: table-cell;
+	padding: 5px 8px;
+	border-bottom: 1px solid #a1cae6;
+	vertical-align: middle;
+	height: 30px;
+}
+
+ul.entryList li div.memberListRole {
+	display: table-cell;
+	width: 1%;
+	white-space: nowrap;
+	text-align: right;
+	padding: 5px 8px;
+	border-bottom: 1px solid #a1cae6;
+	vertical-align: middle;
+	height: 30px;
+}
+
+ul.entryList li div.mamberListDelete {
+	display: table-cell;
+	width: 1%;
+	white-space: nowrap;
+	text-align: right;
+	padding: 5px 8px;
+	border-bottom: 1px solid #a1cae6;
+	vertical-align: middle;
+	height: 30px;
+}
+
+ul.entryList li div.mamberListDelete a {
+	width: 50px;
+	height: 28px;
+	line-height: 28px;
+	display: inline-table;
+	border: 1px solid #e68a8a;
+	-webkit-border-radius: 3px;
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #ffffff),color-stop(1, #fdc0c1));
+	color: #a65959;
+	text-align: center;
+	text-decoration: none;
+}
+
+ul.entryList li img.memberListIcon {
+	margin: 0 10px 0 0;
+	border: 1px solid #b3b3b3;
+	vertical-align: middle;
+}
+
+
+
+/* config - delete */
+p.blogDeleteText {
+	font-size: 14px;
+	padding: 10px 10px 20px;
+	line-height: 1.6;
+	color: #f00;
+}
+
+p.blogDeleteText span {
+	font-weight: bold;
+}
+
+h2.deleteRead {
+	padding: 0 10px 5px;
+	font-size: 14px;
+}
+
+ul.deleteAttention {
+	padding: 0 10px 20px;
+	font-size: 12px;
+}
+
+ul.deleteAttention li {
+	line-height: 1.6;
+	padding-left: 10px;
+}
+
+div.deleteConsent {
+	background: #f5f5f5;
+	text-align: center;
+	margin: 10px;
+	font-size: 14px;
+	padding: 8px;
+}
+
+ul.formBlogDelete {
+	border-top: 1px solid #a1cae6;
+}
+
+
+
+/* config -moblog address */
+dl.moblogAddress {
+	font-size: 14px;
+}
+
+dl.moblogAddress dt {
+	padding: 5px 8px 0;
+}
+
+dl.moblogAddress dd {
+	padding: 5px 8px;
+	border-bottom: 1px solid #a1cae6;
+}
+
+
+/* config - twitter */
+ul.twitterProfile {
+	display: table;
+	width: 100%;
+	border-bottom: 1px solid #bad7eb;
+}
+
+ul.twitterProfile li {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 6px;
+	font-size: 14px;
+}
+
+ul.twitterProfile li.twitterIcon {
+	width: 1%;
+}
+
+ul.twitterProfile li.twitterIcon img {
+	vertical-align: middle;
+}
+
+ul.twitterProfile li.twitterLogout {
+	width: 1%;
+	white-space: nowrap;
+}
+
+ul.twitterProfile li.twitterLogout input.button {
+	width: 100px;
+}
+
+textarea#TweetTmpl {
+	-webkit-border-radius: 4px;
+	border: 1px solid #ccc;
+	width: 98%;
+	height: 2em;
+	padding: 1%;
+	font-size: 14px;
+}
+
+li#twitterOAuth p {
+	font-size: 12px;
+	color: #4d4d4d;
+	line-height: 1.6;
+	padding-top: 10px;
+}
+
+p.twitterOAuthText {
+	font-size: 14px;
+	line-height: 1.6;
+	padding: 10px 20px;
+}
+
+
+/* config - evernote */
+div#evernoteOAuth,
+div#evernoteAccount {
+	margin: 10px;
+	text-align: center;
+}
+
+p.evernoteText {
+	margin: 10px 0;
+	font-size: 14px;
+}
+
+
+/* config - flickr */
+ul.flickrProfile {
+	display: table;
+	width: 100%;
+	border-bottom: 1px solid #bad7eb;
+}
+
+ul.flickrProfile li {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 6px;
+	font-size: 14px;
+}
+
+ul.flickrProfile li.flickrIcon {
+	width: 1%;
+}
+
+ul.flickrProfile li.flickrIcon img {
+	vertical-align: middle;
+}
+
+ul.flickrProfile li.flickrLogout {
+	width: 1%;
+	white-space: nowrap;
+}
+
+ul.flickrProfile li.flickrLogout input.button {
+	width: 100px;
+}
+
+textarea#TweetTmpl {
+	-webkit-border-radius: 4px;
+	border: 1px solid #ccc;
+	width: 98%;
+	height: 2em;
+	padding: 1%;
+	font-size: 14px;
+}
+
+li#flickrOAuth p {
+	font-size: 12px;
+	color: #4d4d4d;
+	line-height: 1.6;
+	padding-top: 10px;
+}
+
+p.flickrOAuthText {
+	font-size: 14px;
+	line-height: 1.6;
+	padding: 10px 20px;
+}
